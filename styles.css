@@ -1,0 +1,23 @@
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    background: linear-gradient(300deg, #00bfff, #867eb0, #44195f);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
+.container1{
+    color: #394867;
+}
